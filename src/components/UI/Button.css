@@ -1,0 +1,21 @@
+.btn{
+  height: 46px;
+  border-radius: 8px;
+  border: 0;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform .05s ease, opacity .15s ease;
+}
+.btn:active{ transform: scale(0.99); }
+.btn:disabled{ opacity: .55; cursor:not-allowed; }
+
+.btn--full{ width:100%; }
+
+.btn--primary{
+  background: #6c25ff;
+  color: #fff;
+}
+.btn--secondary{
+  background: #ede7ff;
+  color: #2b145f;
+}

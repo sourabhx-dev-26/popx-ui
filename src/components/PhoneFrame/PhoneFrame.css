@@ -1,0 +1,18 @@
+.stage{
+  min-height: 100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 24px;
+}
+
+.phone{
+  width: 360px;
+  min-height: 720px;
+  background: var(--phone-bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  display:flex;
+}
